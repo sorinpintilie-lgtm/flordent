@@ -52,6 +52,7 @@ body {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
     z-index: 1000;
     transition: var(--transition);
+    transform: translateY(0);
 }
 
 .nav {
@@ -63,8 +64,10 @@ body {
     margin: 0 auto;
 }
 
-.nav-brand .logo {
-    height: 60px;
+.nav-brand .logo-text {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--primary-red);
     transition: var(--transition);
 }
 

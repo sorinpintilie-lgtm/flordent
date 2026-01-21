@@ -35,10 +35,27 @@ document.addEventListener('DOMContentLoaded', function() {
     // Header scroll effect
     const header = document.querySelector('.header');
     let lastScrollTop = 0;
+    let isScrollingDown = false;
     
     window.addEventListener('scroll', function() {
         const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
         
+        // Determine scroll direction
+        if (scrollTop > lastScrollTop && scrollTop > 100) {
+            // Scrolling down
+            if (!isScrollingDown) {
+                header.style.transform = 'translateY(-100%)';
+                isScrollingDown = true;
+            }
+        } else {
+            // Scrolling up
+            if (isScrollingDown) {
+                header.style.transform = 'translateY(0)';
+                isScrollingDown = false;
+            }
+        }
+        
+        // Update header styling based on scroll position
         if (scrollTop > 100) {
             header.style.background = 'rgba(255, 255, 255, 0.95)';
             header.style.backdropFilter = 'blur(10px)';
