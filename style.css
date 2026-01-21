@@ -1327,6 +1327,29 @@ section {
     padding-top: 1rem;
     text-align: center;
     color: #cccccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.footer-powered-by {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.85rem;
+    color: #cccccc;
+}
+
+.sky-logo {
+    height: 20px;
+    width: auto;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+}
+
+.sky-logo:hover {
+    filter: grayscale(0%);
 }
 
 /* Animations */
