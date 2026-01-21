@@ -1,0 +1,174 @@
+/* SVG Icon Styles */
+.icon {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    fill: none;
+    color: var(--primary-red);
+}
+
+.icon-lg {
+    width: 36px;
+    height: 36px;
+}
+
+.icon-xl {
+    width: 48px;
+    height: 48px;
+}
+
+.icon-service {
+    width: 48px;
+    height: 48px;
+    color: var(--primary-red);
+}
+
+/* Icon Definitions */
+.icon-dentist {
+    width: 48px;
+    height: 48px;
+}
+
+.icon-dentist use {
+    stroke: var(--primary-red);
+}
+
+.icon-surgical {
+    width: 48px;
+    height: 48px;
+}
+
+.icon-surgical use {
+    stroke: var(--primary-red);
+}
+
+.icon-aesthetic {
+    width: 48px;
+    height: 48px;
+}
+
+.icon-aesthetic use {
+    stroke: var(--primary-red);
+}
+
+.icon-ortho {
+    width: 48px;
+    height: 48px;
+}
+
+.icon-ortho use {
+    stroke: var(--primary-red);
+}
+
+.icon-materials {
+    width: 48px;
+    height: 48px;
+}
+
+.icon-materials use {
+    stroke: var(--primary-red);
+}
+
+.icon-guarantee {
+    width: 48px;
+    height: 48px;
+}
+
+.icon-guarantee use {
+    stroke: var(--primary-red);
+}
+
+.icon-pricing {
+    width: 48px;
+    height: 48px;
+}
+
+.icon-pricing use {
+    stroke: var(--primary-red);
+}
+
+.icon-consultation {
+    width: 48px;
+    height: 48px;
+}
+
+.icon-consultation use {
+    stroke: var(--primary-red);
+}
+
+.icon-plan {
+    width: 48px;
+    height: 48px;
+}
+
+.icon-plan use {
+    stroke: var(--primary-red);
+}
+
+.icon-treatment {
+    width: 48px;
+    height: 48px;
+}
+
+.icon-treatment use {
+    stroke: var(--primary-red);
+}
+
+.icon-followup {
+    width: 48px;
+    height: 48px;
+}
+
+.icon-followup use {
+    stroke: var(--primary-red);
+}
+
+.icon-phone {
+    width: 32px;
+    height: 32px;
+    color: var(--primary-red);
+}
+
+.icon-location {
+    width: 32px;
+    height: 32px;
+    color: var(--primary-red);
+}
+
+.icon-clock {
+    width: 32px;
+    height: 32px;
+    color: var(--primary-red);
+}
+
+.icon-facebook {
+    width: 24px;
+    height: 24px;
+    color: var(--white);
+}
+
+.icon-instagram {
+    width: 24px;
+    height: 24px;
+    color: var(--white);
+}
+
+.icon-youtube {
+    width: 24px;
+    height: 24px;
+    color: var(--white);
+}
+
+/* Team Values Icons */
+.icon-respect,
+.icon-quality,
+.icon-transparency,
+.icon-trust {
+    width: 48px;
+    height: 48px;
+    color: var(--primary-red);
+}
