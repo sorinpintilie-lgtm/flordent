@@ -1342,6 +1342,19 @@ section {
     color: #cccccc;
 }
 
+.sky-link {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: inherit;
+    text-decoration: none;
+    transition: opacity 0.3s ease;
+}
+
+.sky-link:hover {
+    opacity: 0.8;
+}
+
 .sky-logo {
     height: 20px;
     width: auto;
