@@ -198,10 +198,9 @@ body {
     margin: 0 auto;
 }
 
-.nav-brand .logo-text {
-    font-size: 1.8rem;
-    font-weight: 700;
-    color: var(--primary-red);
+.nav-logo {
+    height: 50px;
+    width: auto;
     transition: var(--transition);
 }
 
@@ -1266,8 +1265,9 @@ section {
 }
 
 .footer-brand .footer-logo {
-    height: 60px;
+    height: 80px;
     margin-bottom: 1rem;
+    width: auto;
 }
 
 .footer-brand p {
